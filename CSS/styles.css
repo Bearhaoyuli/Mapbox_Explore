@@ -43,7 +43,7 @@ body {
 }
 
 #menu a.active {
-    background-color: #3887be;
+    background-color: #7c7878;
     color: #ffffff;
 }
 
@@ -69,7 +69,7 @@ color: #2dc4b2;
 #console {
 position: absolute;
 width: 240px;
-height: 500px;
+height: 550px;
 margin: 10px;
 padding: 10px 20px;
 background-color: white;
@@ -84,7 +84,7 @@ width: 100%;
 }
 
 .colors {
-background: linear-gradient(to right, #2dc4b2, #3bb3c3, #669ec4, #8b88b6, #a2719b, #aa5e79);
+background: linear-gradient(to right, #1a9850, #91cf60, #d9ef8b, #fee08b, #fc8d59, #d73027);
 margin-bottom: 5px;
 }
 
@@ -94,7 +94,7 @@ display: inline-block;
 text-align: center;
 }
 .marker {
-background-image: url('./icon/incident.png');
+background-image: url('../icon/incident.png');
 background-size: cover;
 width: 25px;
 height: 25px;
@@ -103,17 +103,17 @@ cursor: pointer;
 }
 .overlay {
     position: absolute;
-    top: 450px;
+    top: 525px;
     left: 10px;
 }
 
 .overlay button {
     font: 600 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    background-color: #3386c0;
+    background-color: #7c7878;
     color: #fff;
     display: inline-block;
     margin: 0;
-    padding: 10px 20px;
+    padding: 8px 15px;
     border: none;
     cursor: pointer;
     border-radius: 3px;
@@ -142,6 +142,25 @@ background-color: #555;
 padding: 0 18px;
 display: none;
 overflow: hidden;
-height: 180px;
+height: 280px;
 background-color: #f1f1f1;
+}
+
+.button2 {
+  background-color: #7c7878;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
