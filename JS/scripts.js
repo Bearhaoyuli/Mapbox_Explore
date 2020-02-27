@@ -1,9 +1,9 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoiaGFveXUtZnNmIiwiYSI6ImNrNnNyYmN5NjBrNGIzZnBidTJkd201cWQifQ.OHz_Lulnto908cgqxQtqtQ'; // replace this with your access token
+mapboxgl.accessToken = 'pk.eyJ1IjoiaGFveXUtZnNmIiwiYSI6ImNrNnNyYmN5NjBrNGIzZnBidTJkd201cWQifQ.OHz_Lulnto908cgqxQtqtQ'; // API Key
 var map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/haoyu-fsf/ck6sr15xd0gdj1jpcwgrl2w34', // replace this with your style URL
+  style: 'mapbox://styles/haoyu-fsf/ck6sr15xd0gdj1jpcwgrl2w34', // style URL
   center: [-74.0060, 40.7128],
-  zoom: 12
+  zoom: 11.5
 });
 
 // First Incident
@@ -57,7 +57,7 @@ $.getJSON('./route.geojson', function(results){
                 // low frame rate
                 var steps = 800;
 
-                // Draw an arc between the `origin` & `destination` of the two points
+                // Draw an arc between the `origin` & `destination`
                 for (var i = 0; i < lineDistance; i += lineDistance / steps) {
                     var segment = turf.along(route.features[0], i, 'kilometers');
                     arc.push(segment.geometry.coordinates);
@@ -69,15 +69,15 @@ $.getJSON('./route.geojson', function(results){
                 var counter = 0;
 
                 map.on('load', function() {
-                    map.addSource('pp', {
+                    map.addSource('PP_Area', {
                             'type': 'geojson',
                             'data': './police_precint.geojson'
                             });
 
                         map.addLayer({
-                            'id': 'pp',
+                            'id': 'PP_Area',
                             'type': 'fill',
-                            'source': 'pp',
+                            'source': 'PP_Area',
                             'layout': {},
                             'filter':['>=', 'Join_Count',0],
                             'paint': {
@@ -86,26 +86,29 @@ $.getJSON('./route.geojson', function(results){
                                 ['linear'],
                                 ['get', 'Join_Count'],
                                 0,
-                                '#F2F12D',
+                                '#1a9641',
                                 1,
-                                '#EED322',
+                                '#a6d96a',
                                 2,
-                                '#B86B25',
+                                '#ffffbf',
                                 3,
-                                '#8B4225',
+                                '#fdae61',
                                 4,
-                                '#723122'
+                                '#d7191c'
                                 ],
-                            'fill-opacity':  0.3
+                            'fill-opacity':  0.25
                             }
                             },
                             );
+                        var zoomlevel_change = 12;
 
                         map.addLayer({
-                            'id': 'pp2',
+                            'id': 'Incident_count',
                             'type': 'symbol',
-                            'source': 'pp',
+                            'source': 'PP_Area',
+                            'minzoom':zoomlevel_change,
                             'layout': {
+                            // 'visibility':'none',
                             'text-field': ['get', 'Join_Count'],
                             'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
                             'text-radial-offset': 0.5,
@@ -120,28 +123,28 @@ $.getJSON('./route.geojson', function(results){
 
 
                         map.addLayer({
-                            'id': 'pp_line',
+                            'id': 'PP_outline',
                             'type': 'line',
-                            'source': 'pp',
+                            'source': 'PP_Area',
                             'layout': {
 
                             },
                             'paint': {
-                                'line-color': '#627BC1',
-                                'line-width': 2
+                                'line-color': '#404040',
+                                'line-width': 1
                             }
                             });
 
 
                         map.addLayer({
-                            id: 'pdstation',
+                            id: 'Police_station',
                             type: 'symbol',
                             source: {
                             type: 'geojson',
                             data: pdstation
                             },
                             layout: {
-                            'icon-image': 'information-15',
+                            'icon-image': 'police-11',
                             'icon-allow-overlap': true
                             },
                             paint: { }
@@ -154,6 +157,27 @@ $.getJSON('./route.geojson', function(results){
                             features: []
                             }
                         });
+
+
+                        map.addSource('actual_incidents', {
+                                'type': 'geojson',
+                                'data': './actual_incidents.geojson'
+                                });
+
+                        map.addLayer({
+                              id: 'Complains',
+                              type: 'symbol',
+                              source: {
+                              type: 'geojson',
+                              data: 'actual_incidents.geojson'
+                              },
+                              layout: {
+                              'icon-image': 'vienna-u-bahn',
+                              'icon-allow-overlap': false
+                              },
+                              paint: { }
+                          });
+                        // animate_p();
 
                         try{
                             animate_p()
@@ -170,21 +194,19 @@ $.getJSON('./route.geojson', function(results){
                         point.features[0].geometry.coordinates =
                             route.features[0].geometry.coordinates[counter];
 
-                        // Calculate the bearing to ensure the icon is rotated to match the route arc
-                        // The bearing is calculate between the current point and the next point, except
-                        // at the end of the arc use the previous point and the current point
-                        point.features[0].properties.bearing = turf.bearing(
-                            turf.point(
-                                route.features[0].geometry.coordinates[
-                                    counter >= steps ? counter - 1 : counter
-                                ]
-                            ),
-                            turf.point(
-                                route.features[0].geometry.coordinates[
-                                    counter >= steps ? counter : counter + 1
-                                ]
-                            )
-                        );
+
+                        // point.features[0].properties.bearing = turf.bearing(
+                        //     turf.point(
+                        //         route.features[0].geometry.coordinates[
+                        //             counter >= steps ? counter - 1 : counter
+                        //         ]
+                        //     ),
+                        //     turf.point(
+                        //         route.features[0].geometry.coordinates[
+                        //             counter >= steps ? counter : counter + 1
+                        //         ]
+                        //     )
+                        // );
 
                         // Update the source with this new data.
                         map.getSource('point').setData(point);
@@ -196,6 +218,10 @@ $.getJSON('./route.geojson', function(results){
 
                         counter = counter + 1;
                     }
+
+
+
+
 
                     document.getElementById('replay').addEventListener('click', function() {
                         map.addSource('route', {
@@ -214,7 +240,7 @@ $.getJSON('./route.geojson', function(results){
                             'type': 'line',
                             'paint': {
                                 'line-width': 2,
-                                'line-color': '#007cbf'
+                                'line-color': '#a17676'
                             }
                         });
 
@@ -223,7 +249,7 @@ $.getJSON('./route.geojson', function(results){
                             'source': 'point',
                             'type': 'symbol',
                             'layout': {
-                                'icon-image': 'airport-15',
+                                'icon-image': 'heliport-15',
                                 'icon-rotate': ['get', 'bearing'],
                                 'icon-rotation-alignment': 'map',
                                 'icon-allow-overlap': true,
@@ -290,8 +316,8 @@ function remove(){
 
 
     try{
-        map.removeLayer('collisions');
-        map.removeSource('collisions');
+        map.removeLayer('Complain_p');
+        map.removeSource('Complain_p');
     }
     catch(e){};
     try{
@@ -327,13 +353,13 @@ function addlayertime() {
     changethefilter();
     // console.log(filter_content);
     try{
-        map.removeLayer('collisions');
-        map.removeSource('collisions');
+        map.removeLayer('Complain_p');
+        map.removeSource('Complain_p');
     }
     catch(e){};
 
     map.addLayer({
-        id: 'collisions',
+        id: 'Complain_p',
         type: 'circle',
         source: {
         type: 'geojson',
@@ -344,19 +370,25 @@ function addlayertime() {
             'interpolate',
             ['linear'],
             ['number', ['get', 'harz_l']],
-            0, 4,
-            5, 24
+            1, 5,
+            2, 7,
+            3, 10,
+            4, 12,
+            5, 15,
+            6, 20
         ],
+        // 'circle-radius':5,
         'circle-color': [
             'interpolate',
             ['linear'],
             ['number', ['get', 'harz_l']],
 
-            1, '#3BB3C3',
-            2, '#669EC4',
-            3, '#8B88B6',
-            4, '#A2719B',
-            5, '#AA5E79'
+            1, '#1a9850',
+            2, '#91cf60',
+            3, '#d9ef8b',
+            4, '#fee08b',
+            5, '#fc8d59',
+            6, '#d73027'
         ],
         'circle-opacity': 0.8
         },
@@ -369,7 +401,7 @@ function addlayertime() {
         document.getElementById('slider').addEventListener('input', function(e) {
         var hour = parseInt(e.target.value);
         // update the map
-        map.setFilter('collisions', ['==', ['number', ['get', 'Created_hr']], hour]);
+        map.setFilter('Complain_p', ['==', ['number', ['get', 'Created_hr']], hour]);
 
         // converting 0-23 hour to AMPM format
         var ampm = hour >= 12 ? 'PM' : 'AM';
@@ -381,26 +413,6 @@ function addlayertime() {
 
 
 
-        //new add on sat
-        // document.getElementById('filters').addEventListener('change', function(e) {
-        // // var day = e.target.value;
-        // var day = 'weekday';
-        // console.log(day);
-        // // update the map filter
-        // //['number', ['get', 'Created_hr']], hour]
-        // if (day === 'weekday') {
-        //     filterDay = ['>=', ['get', 'Created_hr'], 12];
-        // } else if (day === 'weekend') {
-        //     filterDay = ['<', ['get', 'Created_hr'], 12];
-        // } else {
-        //     alert('error');
-        // }
-        // console.log(filterDay);
-        // map.setFilter('collisions', ['all', filterDay]);
-        // });
-        //new add on sat
-
-
 
     };
 
@@ -409,7 +421,7 @@ function addlayertime() {
 
 function loadjson(){
     // window.iicc;
-    window.aa = $.getJSON('./time_display_incident.geojson', function(results){
+    window.aa = $.getJSON('./route.geojson', function(results){
         window.iicc = results
         return iicc
     })
@@ -434,7 +446,7 @@ function animate_p(){
             .setLngLat(marker.geometry.coordinates)
             .addTo(map)
         // markerss.remove()
-        }, (index+1) * 10)
+      }, (index+1) * 100)
     // $( ".marker" ).remove();
 // create a HTML element for each feature
 // markerss.remove()
@@ -448,7 +460,7 @@ function animate_p(){
 map.on('mousemove', function(e) {
 
 var features = map.queryRenderedFeatures(e.point, {
-    layers: ['incident-geocoded'] // replace this with the name of the layer
+    layers: ['Complains'] // replace this with the name of the layer
 });
 
 if (!features.length) {
@@ -460,7 +472,7 @@ if (!features.length) {
 var feature = features[0];
 
 popup.setLngLat(feature.geometry.coordinates)
-.setHTML('<h3>' + feature.properties.Cross_Street_1+ '</h3><p>' + feature.properties.Cross_Street_2 + '</p>' )
+.setHTML('<h4>' + feature.properties.Descriptor+ '</h4><p>' + 'Created Time: '+feature.properties.Created_Date + '</p>' )
 .addTo(map);
 map.getCanvas().style.cursor = features.length ? 'pointer' : '';
 
@@ -469,7 +481,7 @@ map.getCanvas().style.cursor = features.length ? 'pointer' : '';
 
 map.on('mousemove', function(e) {
 var features2 = map.queryRenderedFeatures(e.point, {
-    layers: ['pdstation'] // replace this with the name of the layer
+    layers: ['Police_station'] // replace this with the name of the layer
 });
 
 if (!features2.length) {
@@ -481,14 +493,14 @@ if (!features2.length) {
 var feature2 = features2[0];
 
 popup2.setLngLat(feature2.geometry.coordinates)
-.setHTML('<h3>' + feature2.properties.Name+ '<h3><p>' + feature2.properties.Address + '</p>' )
+.setHTML('<h4>' + feature2.properties.Name+ '</h4><p>' + feature2.properties.Address + '</p>' )
 .addTo(map);
 map.getCanvas().style.cursor = features2.length ? 'pointer' : '';
 
 });
 
 map.on('click', function(e) {
-var Inci_Features = map.queryRenderedFeatures(e.point, { layers: ['incident-geocoded'] });
+var Inci_Features = map.queryRenderedFeatures(e.point, { layers: ['Complains'] });
 if (!Inci_Features.length) {
     map.removeLayer('nearest-pdstation');
     return;
@@ -512,9 +524,9 @@ if (nearestPD !== null) {
     source: 'nearest-pdstation',
     paint: {
         'circle-radius': 12,
-        'circle-color': '#486DE0'
+        'circle-color': '#BF683F'
     }
-    }, 'pdstation');
+    }, 'Police_station');
 }
 });
 
@@ -522,7 +534,7 @@ if (nearestPD !== null) {
 
 
 
-var toggleableLayerIds = ['incident-geocoded', 'pdstation','pp'];
+var toggleableLayerIds = ['Complains', 'Police_station','PP_Area', 'Incident_count','PP_outline'];
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
 
@@ -550,6 +562,7 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
     var layers = document.getElementById('menu');
     layers.appendChild(link);
 };
+
 
 
 var coll = document.getElementsByClassName("collapsible");
