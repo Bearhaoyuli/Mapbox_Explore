@@ -1,0 +1,1553 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45539797,
+        "Created_Date": "2/3/20 0:12",
+        "Closed_Date": "2/3/20 6:46",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Vehicle Idling (AD3)",
+        "Location_Type": "",
+        "Incident_Zip": 10474,
+        "Incident_Address": "741 WHITTIER STREET",
+        "Street_Name": "WHITTIER STREET",
+        "Cross_Street_1": "SPOFFORD AVE",
+        "Cross_Street_2": "LAFAYETTE AVE",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "BRONX",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/3/20 6:46",
+        "Community_Board": "02 BRONX",
+        "Borough": "BRONX",
+        "Location": "(40.815917163045114, -73.88399147647033)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.88399148,
+          40.81591716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45539901,
+        "Created_Date": "2/3/20 3:02",
+        "Closed_Date": "2/3/20 12:12",
+        "Agency": "DOHMH",
+        "Agency_Name": "Department of Health and Mental Hygiene",
+        "Complaint_Type": "Indoor Air Quality",
+        "Descriptor": "Chemical Vapors/Gases/Odors",
+        "Location_Type": "3+ Family Apartment Building",
+        "Incident_Zip": 10011,
+        "Incident_Address": "309 WEST   21 STREET",
+        "Street_Name": "WEST   21 STREET",
+        "Cross_Street_1": "8 AVENUE",
+        "Cross_Street_2": "9 AVENUE",
+        "Intersection_Street_1": "8 AVENUE",
+        "Intersection_Street_2": "9 AVENUE",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "WEST   21 STREET",
+        "Facility_Type": "",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/3/20 12:12",
+        "Community_Board": "04 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.74426108096542, -74.0)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74,
+          40.74426108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45539357,
+        "Created_Date": "2/3/20 3:09",
+        "Closed_Date": "2/5/20 15:30",
+        "Agency": "DOHMH",
+        "Agency_Name": "Department of Health and Mental Hygiene",
+        "Complaint_Type": "Indoor Air Quality",
+        "Descriptor": "Chemical Vapors/Gases/Odors",
+        "Location_Type": "1-2 Family Dwelling",
+        "Incident_Zip": 10012,
+        "Incident_Address": "57 SPRING STREET",
+        "Street_Name": "SPRING STREET",
+        "Cross_Street_1": "MULBERRY STREET",
+        "Cross_Street_2": "CLEVELAND PLACE",
+        "Intersection_Street_1": "MULBERRY STREET",
+        "Intersection_Street_2": "CLEVELAND PLACE",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "SPRING STREET",
+        "Facility_Type": "",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/5/20 15:30",
+        "Community_Board": "02 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.72217399961314, -73.99679279742878)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9967928,
+          40.722174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45532798,
+        "Created_Date": "2/3/20 5:23",
+        "Closed_Date": "2/3/20 5:25",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Vehicle Idling (AD3)",
+        "Location_Type": "",
+        "Incident_Zip": 11249,
+        "Incident_Address": "166 BEDFORD AVENUE",
+        "Street_Name": "BEDFORD AVENUE",
+        "Cross_Street_1": "N 8 ST",
+        "Cross_Street_2": "N 7 ST",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "BROOKLYN",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/3/20 5:25",
+        "Community_Board": "01 BROOKLYN",
+        "Borough": "BROOKLYN",
+        "Location": "(40.718260326553214, -73.9572806927308)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95728069,
+          40.71826033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45532166,
+        "Created_Date": "2/3/20 6:17",
+        "Closed_Date": "2/3/20 12:19",
+        "Agency": "DOHMH",
+        "Agency_Name": "Department of Health and Mental Hygiene",
+        "Complaint_Type": "Indoor Sewage",
+        "Descriptor": "Sewage Odor",
+        "Location_Type": "3+ Family Mixed Use Building",
+        "Incident_Zip": 11226,
+        "Incident_Address": "770 OCEAN AVENUE",
+        "Street_Name": "OCEAN AVENUE",
+        "Cross_Street_1": "BEVERLEY ROAD",
+        "Cross_Street_2": "CORTELYOU ROAD",
+        "Intersection_Street_1": "BEVERLEY ROAD",
+        "Intersection_Street_2": "CORTELYOU ROAD",
+        "Address_Type": "ADDRESS",
+        "City": "BROOKLYN",
+        "Landmark": "OCEAN AVENUE",
+        "Facility_Type": "",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/3/20 12:19",
+        "Community_Board": "14 BROOKLYN",
+        "Borough": "BROOKLYN",
+        "Location": "(40.64396299561199, -73.95985786421359)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95985786,
+          40.643963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45539815,
+        "Created_Date": "2/3/20 7:20",
+        "Closed_Date": "",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Vehicle Idling (AD3)",
+        "Location_Type": "",
+        "Incident_Zip": 10128,
+        "Incident_Address": "",
+        "Street_Name": "",
+        "Cross_Street_1": "",
+        "Cross_Street_2": "",
+        "Intersection_Street_1": "MADISON AVENUE",
+        "Intersection_Street_2": "EAST 91 STREET",
+        "Address_Type": "INTERSECTION",
+        "City": "NEW YORK",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Started",
+        "Resolution_Action_Updated_Date": "2/4/20 18:38",
+        "Community_Board": "08 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.78404339073221, -73.95648739782574)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9564874,
+          40.78404339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45537112,
+        "Created_Date": "2/3/20 7:54",
+        "Closed_Date": "",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Vehicle Idling (AD3)",
+        "Location_Type": "",
+        "Incident_Zip": 11385,
+        "Incident_Address": "1637 SUMMERFIELD STREET",
+        "Street_Name": "SUMMERFIELD STREET",
+        "Cross_Street_1": "WYCKOFF AVE",
+        "Cross_Street_2": "CYPRESS AVE",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "Ridgewood",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Started",
+        "Resolution_Action_Updated_Date": "2/4/20 18:39",
+        "Community_Board": "05 QUEENS",
+        "Borough": "QUEENS",
+        "Location": "(40.69553256637427, -73.90170189743831)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9017019,
+          40.69553257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45537901,
+        "Created_Date": "2/3/20 8:36",
+        "Closed_Date": "2/3/20 12:25",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Hazardous Materials",
+        "Descriptor": "Chemical Odor (HD1)",
+        "Location_Type": "",
+        "Incident_Zip": 11215,
+        "Incident_Address": "416 8 AVENUE",
+        "Street_Name": "8 AVENUE",
+        "Cross_Street_1": "4 ST",
+        "Cross_Street_2": "5 ST",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "BROOKLYN",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/3/20 12:25",
+        "Community_Board": "06 BROOKLYN",
+        "Borough": "BROOKLYN",
+        "Location": "(40.66861580425942, -73.97684665800263)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97684666,
+          40.6686158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45537827,
+        "Created_Date": "2/3/20 8:52",
+        "Closed_Date": "2/7/20 11:15",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Vehicle Idling (AD3)",
+        "Location_Type": "",
+        "Incident_Zip": 11222,
+        "Incident_Address": "107 MILTON STREET",
+        "Street_Name": "MILTON STREET",
+        "Cross_Street_1": "FRANKLIN ST",
+        "Cross_Street_2": "MANHATTAN AVE",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "BROOKLYN",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/7/20 11:15",
+        "Community_Board": "01 BROOKLYN",
+        "Borough": "BROOKLYN",
+        "Location": "(40.72929386922743, -73.9562561528642)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95625615,
+          40.72929387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45534526,
+        "Created_Date": "2/3/20 8:55",
+        "Closed_Date": "",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Vehicle Idling (AD3)",
+        "Location_Type": "",
+        "Incident_Zip": 11385,
+        "Incident_Address": "83-00 72 DRIVE",
+        "Street_Name": "72 DRIVE",
+        "Cross_Street_1": "DEAD END",
+        "Cross_Street_2": "88 ST",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "Ridgewood",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Started",
+        "Resolution_Action_Updated_Date": "2/4/20 18:27",
+        "Community_Board": "05 QUEENS",
+        "Borough": "QUEENS",
+        "Location": "(40.70863727404246, -73.86496049433114)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.86496049,
+          40.70863727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45533961,
+        "Created_Date": "2/3/20 9:10",
+        "Closed_Date": "",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Vehicle Idling (AD3)",
+        "Location_Type": "",
+        "Incident_Zip": 10002,
+        "Incident_Address": "323 GRAND STREET",
+        "Street_Name": "GRAND STREET",
+        "Cross_Street_1": "ORCHARD ST",
+        "Cross_Street_2": "LUDLOW ST",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Open",
+        "Resolution_Action_Updated_Date": "",
+        "Community_Board": "03 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.717158985036974, -73.99059555906366)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99059556,
+          40.71715899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45535990,
+        "Created_Date": "2/3/20 9:47",
+        "Closed_Date": "2/3/20 11:00",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Hazardous Materials",
+        "Descriptor": "Chemical Odor (HD1)",
+        "Location_Type": "",
+        "Incident_Zip": 10012,
+        "Incident_Address": "57 SPRING STREET",
+        "Street_Name": "SPRING STREET",
+        "Cross_Street_1": "MULBERRY ST",
+        "Cross_Street_2": "CLEVELAND PL",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/3/20 11:00",
+        "Community_Board": "02 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.72217399961314, -73.99679279742878)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9967928,
+          40.722174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45536576,
+        "Created_Date": "2/3/20 9:59",
+        "Closed_Date": "",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Industrial Waste",
+        "Descriptor": "Odor In Sewer/Catch Basin (ICB)",
+        "Location_Type": "",
+        "Incident_Zip": 10306,
+        "Incident_Address": "15 MILTON AVENUE",
+        "Street_Name": "MILTON AVENUE",
+        "Cross_Street_1": "NEW DORP LN",
+        "Cross_Street_2": "BEACON PL",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "STATEN ISLAND",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Open",
+        "Resolution_Action_Updated_Date": "",
+        "Community_Board": "02 STATEN ISLAND",
+        "Borough": "STATEN ISLAND",
+        "Location": "(40.56626854938309, -74.10245216857349)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.10245217,
+          40.56626855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45536025,
+        "Created_Date": "2/3/20 10:11",
+        "Closed_Date": "2/3/20 12:15",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Hazardous Materials",
+        "Descriptor": "Chemical Odor (HD1)",
+        "Location_Type": "",
+        "Incident_Zip": 10009,
+        "Incident_Address": "270 EAST    2 STREET",
+        "Street_Name": "EAST    2 STREET",
+        "Cross_Street_1": "AVENUE C",
+        "Cross_Street_2": "BEND",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/3/20 12:15",
+        "Community_Board": "03 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.72082198896447, -73.98060204890449)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98060205,
+          40.72082199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45539352,
+        "Created_Date": "2/3/20 12:05",
+        "Closed_Date": "2/3/20 14:40",
+        "Agency": "DOHMH",
+        "Agency_Name": "Department of Health and Mental Hygiene",
+        "Complaint_Type": "Indoor Air Quality",
+        "Descriptor": "Chemical Vapors/Gases/Odors",
+        "Location_Type": "Other (Explain Below)",
+        "Incident_Zip": 10279,
+        "Incident_Address": "233 BROADWAY",
+        "Street_Name": "BROADWAY",
+        "Cross_Street_1": "BARCLAY STREET",
+        "Cross_Street_2": "PARK PLACE",
+        "Intersection_Street_1": "BARCLAY STREET",
+        "Intersection_Street_2": "PARK PLACE",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "BROADWAY",
+        "Facility_Type": "",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/3/20 14:40",
+        "Community_Board": "01 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.71226518964026, -74.00789236901102)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00789237,
+          40.71226519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45537122,
+        "Created_Date": "2/3/20 12:14",
+        "Closed_Date": "2/4/20 8:00",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Vehicle Idling (AD3)",
+        "Location_Type": "",
+        "Incident_Zip": 10025,
+        "Incident_Address": "125 WEST   92 STREET",
+        "Street_Name": "WEST   92 STREET",
+        "Cross_Street_1": "COLUMBUS AVE",
+        "Cross_Street_2": "AMSTERDAM AVE",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/4/20 8:00",
+        "Community_Board": "07 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.79070376392151, -73.97033624378187)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97033624,
+          40.79070376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45538818,
+        "Created_Date": "2/3/20 12:23",
+        "Closed_Date": "2/4/20 14:00",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Vehicle Idling (AD3)",
+        "Location_Type": "",
+        "Incident_Zip": 11213,
+        "Incident_Address": "",
+        "Street_Name": "",
+        "Cross_Street_1": "",
+        "Cross_Street_2": "",
+        "Intersection_Street_1": "ATLANTIC AVENUE",
+        "Intersection_Street_2": "SCHENECTADY AVENUE",
+        "Address_Type": "INTERSECTION",
+        "City": "BROOKLYN",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/4/20 14:00",
+        "Community_Board": "03 BROOKLYN",
+        "Borough": "BROOKLYN",
+        "Location": "(40.67756310972577, -73.93307955316551)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93307955,
+          40.67756311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45535759,
+        "Created_Date": "2/3/20 12:23",
+        "Closed_Date": "2/4/20 5:48",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Vehicle Idling (AD3)",
+        "Location_Type": "",
+        "Incident_Zip": 10025,
+        "Incident_Address": "125 WEST   92 STREET",
+        "Street_Name": "WEST   92 STREET",
+        "Cross_Street_1": "COLUMBUS AVE",
+        "Cross_Street_2": "AMSTERDAM AVE",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/4/20 5:48",
+        "Community_Board": "07 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.79070376392151, -73.97033624378187)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97033624,
+          40.79070376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45537849,
+        "Created_Date": "2/3/20 13:50",
+        "Closed_Date": "",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Restaurant (AD2)",
+        "Location_Type": "",
+        "Incident_Zip": 11368,
+        "Incident_Address": "99-02 37 AVENUE",
+        "Street_Name": "37 AVENUE",
+        "Cross_Street_1": "99 ST",
+        "Cross_Street_2": "100 ST",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "Corona",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Started",
+        "Resolution_Action_Updated_Date": "2/4/20 8:56",
+        "Community_Board": "03 QUEENS",
+        "Borough": "QUEENS",
+        "Location": "(40.75229349020062, -73.86804816899604)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.86804817,
+          40.75229349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45540077,
+        "Created_Date": "2/3/20 14:05",
+        "Closed_Date": "2/3/20 15:20",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Hazardous Materials",
+        "Descriptor": "Chemical Odor (HD1)",
+        "Location_Type": "",
+        "Incident_Zip": 10013,
+        "Incident_Address": "210 CANAL STREET",
+        "Street_Name": "CANAL STREET",
+        "Cross_Street_1": "BAXTER ST",
+        "Cross_Street_2": "MULBERRY ST",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/3/20 15:20",
+        "Community_Board": "03 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.71724719848411, -73.99917030139086)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9991703,
+          40.7172472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45535372,
+        "Created_Date": "2/3/20 14:22",
+        "Closed_Date": "2/4/20 11:03",
+        "Agency": "DOHMH",
+        "Agency_Name": "Department of Health and Mental Hygiene",
+        "Complaint_Type": "Indoor Sewage",
+        "Descriptor": "Sewage Odor",
+        "Location_Type": "1-2 Family Mixed Use Building",
+        "Incident_Zip": 10009,
+        "Incident_Address": "380 EAST   10 STREET",
+        "Street_Name": "EAST   10 STREET",
+        "Cross_Street_1": "AVENUE B",
+        "Cross_Street_2": "AVENUE C",
+        "Intersection_Street_1": "AVENUE B",
+        "Intersection_Street_2": "AVENUE C",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "EAST   10 STREET",
+        "Facility_Type": "",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/4/20 11:03",
+        "Community_Board": "03 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.72620405624063, -73.97834195554522)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97834196,
+          40.72620406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45534004,
+        "Created_Date": "2/3/20 14:35",
+        "Closed_Date": "2/4/20 14:15",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Sewer",
+        "Descriptor": "Sewer Odor (SA2)",
+        "Location_Type": "",
+        "Incident_Zip": 10003,
+        "Incident_Address": "716 BROADWAY",
+        "Street_Name": "BROADWAY",
+        "Cross_Street_1": "WASHINGTON PL",
+        "Cross_Street_2": "WAVERLY PL",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "",
+        "Facility_Type": "",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/4/20 14:15",
+        "Community_Board": "02 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.729090657688886, -73.993664305658)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99366431,
+          40.72909066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45533953,
+        "Created_Date": "2/3/20 15:36",
+        "Closed_Date": "2/3/20 16:55",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Sewer",
+        "Descriptor": "Sewer Odor (SA2)",
+        "Location_Type": "",
+        "Incident_Zip": 11419,
+        "Incident_Address": "103-26 108 STREET",
+        "Street_Name": "108 STREET",
+        "Cross_Street_1": "103 AVE",
+        "Cross_Street_2": "LIBERTY AVE",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "South Richmond Hill",
+        "Landmark": "",
+        "Facility_Type": "",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/3/20 16:55",
+        "Community_Board": "10 QUEENS",
+        "Borough": "QUEENS",
+        "Location": "(40.68481611393531, -73.83402189747432)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8340219,
+          40.68481611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45537546,
+        "Created_Date": "2/3/20 15:39",
+        "Closed_Date": "2/4/20 11:24",
+        "Agency": "DOHMH",
+        "Agency_Name": "Department of Health and Mental Hygiene",
+        "Complaint_Type": "Indoor Air Quality",
+        "Descriptor": "Chemical Vapors/Gases/Odors",
+        "Location_Type": "1-2 Family Mixed Use Building",
+        "Incident_Zip": 10075,
+        "Incident_Address": "50 EAST   79 STREET",
+        "Street_Name": "EAST   79 STREET",
+        "Cross_Street_1": "MADISON AVENUE",
+        "Cross_Street_2": "PARK AVENUE",
+        "Intersection_Street_1": "MADISON AVENUE",
+        "Intersection_Street_2": "PARK AVENUE",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "EAST   79 STREET",
+        "Facility_Type": "",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/4/20 11:24",
+        "Community_Board": "08 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.77609645836829, -73.96161599460098)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96161599,
+          40.77609646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45537790,
+        "Created_Date": "2/3/20 15:45",
+        "Closed_Date": "",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Hazardous Materials",
+        "Descriptor": "Chemical Odor (HD1)",
+        "Location_Type": "",
+        "Incident_Zip": 11208,
+        "Incident_Address": "17 GRANT AVENUE",
+        "Street_Name": "GRANT AVENUE",
+        "Cross_Street_1": "JAMAICA AVE",
+        "Cross_Street_2": "ETNA ST",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "BROOKLYN",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Started",
+        "Resolution_Action_Updated_Date": "2/3/20 16:00",
+        "Community_Board": "05 BROOKLYN",
+        "Borough": "BROOKLYN",
+        "Location": "(40.69029024035298, -73.86884878627403)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.86884879,
+          40.69029024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45538874,
+        "Created_Date": "2/3/20 16:00",
+        "Closed_Date": "2/3/20 19:00",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Hazardous Materials",
+        "Descriptor": "Chemical Odor (HD1)",
+        "Location_Type": "",
+        "Incident_Zip": 10002,
+        "Incident_Address": "",
+        "Street_Name": "",
+        "Cross_Street_1": "",
+        "Cross_Street_2": "",
+        "Intersection_Street_1": "CHERRY STREET",
+        "Intersection_Street_2": "FDR DRIVE",
+        "Address_Type": "INTERSECTION",
+        "City": "NEW YORK",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/3/20 19:00",
+        "Community_Board": "03 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.71240883386746, -73.97801818974338)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97801819,
+          40.71240883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45539835,
+        "Created_Date": "2/3/20 16:30",
+        "Closed_Date": "2/3/20 17:45",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Hazardous Materials",
+        "Descriptor": "Chemical Odor (HD1)",
+        "Location_Type": "",
+        "Incident_Zip": 11236,
+        "Incident_Address": "1306 EAST   84 STREET",
+        "Street_Name": "EAST   84 STREET",
+        "Cross_Street_1": "AVENUE M",
+        "Cross_Street_2": "AVENUE N",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "BROOKLYN",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/3/20 17:45",
+        "Community_Board": "18 BROOKLYN",
+        "Borough": "BROOKLYN",
+        "Location": "(40.63052057377649, -73.90273075327812)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90273075,
+          40.63052057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45537838,
+        "Created_Date": "2/3/20 16:40",
+        "Closed_Date": "2/4/20 13:00",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Vehicle Idling (AD3)",
+        "Location_Type": "",
+        "Incident_Zip": 10019,
+        "Incident_Address": "WEST   59 STREET",
+        "Street_Name": "WEST   59 STREET",
+        "Cross_Street_1": "11 AVENUE",
+        "Cross_Street_2": "12 AVENUE",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "BLOCKFACE",
+        "City": "NEW YORK",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/4/20 13:00",
+        "Community_Board": "04 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9918276,
+          40.77220285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45534509,
+        "Created_Date": "2/3/20 17:28",
+        "Closed_Date": "2/4/20 11:30",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Vehicle Idling (AD3)",
+        "Location_Type": "",
+        "Incident_Zip": 10010,
+        "Incident_Address": "51 MADISON AVENUE",
+        "Street_Name": "MADISON AVENUE",
+        "Cross_Street_1": "E 26 ST",
+        "Cross_Street_2": "E 27 ST",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/4/20 11:30",
+        "Community_Board": "05 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.743022395918906, -73.98640211367498)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98640211,
+          40.7430224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45538857,
+        "Created_Date": "2/3/20 18:05",
+        "Closed_Date": "2/4/20 23:15",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Restaurant (AD2)",
+        "Location_Type": "",
+        "Incident_Zip": 11222,
+        "Incident_Address": "120 FRANKLIN STREET",
+        "Street_Name": "FRANKLIN STREET",
+        "Cross_Street_1": "NOBLE ST",
+        "Cross_Street_2": "MILTON ST",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "BROOKLYN",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/4/20 23:15",
+        "Community_Board": "01 BROOKLYN",
+        "Borough": "BROOKLYN",
+        "Location": "(40.728852397763575, -73.95741461513116)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95741462,
+          40.7288524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45537150,
+        "Created_Date": "2/3/20 18:48",
+        "Closed_Date": "2/3/20 20:17",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Hazardous Materials",
+        "Descriptor": "Chemical Odor (HD1)",
+        "Location_Type": "",
+        "Incident_Zip": 11249,
+        "Incident_Address": "40 NORTH    4 STREET",
+        "Street_Name": "NORTH    4 STREET",
+        "Cross_Street_1": "N 4 PL",
+        "Cross_Street_2": "WYTHE AVE",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "BROOKLYN",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/3/20 20:17",
+        "Community_Board": "01 BROOKLYN",
+        "Borough": "BROOKLYN",
+        "Location": "(40.71848195630628, -73.96321480997295)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96321481,
+          40.71848196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45535743,
+        "Created_Date": "2/3/20 20:01",
+        "Closed_Date": "2/4/20 6:22",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Vehicle Idling (AD3)",
+        "Location_Type": "",
+        "Incident_Zip": 11218,
+        "Incident_Address": "",
+        "Street_Name": "",
+        "Cross_Street_1": "",
+        "Cross_Street_2": "",
+        "Intersection_Street_1": "STRATFORD ROAD",
+        "Intersection_Street_2": "TURNER PLACE",
+        "Address_Type": "INTERSECTION",
+        "City": "BROOKLYN",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/4/20 6:22",
+        "Community_Board": "14 BROOKLYN",
+        "Borough": "BROOKLYN",
+        "Location": "(40.64548644065996, -73.96902426634152)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96902427,
+          40.64548644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45537151,
+        "Created_Date": "2/3/20 20:22",
+        "Closed_Date": "2/5/20 16:49",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Hazardous Materials",
+        "Descriptor": "Chemical Odor (HD1)",
+        "Location_Type": "",
+        "Incident_Zip": 10010,
+        "Incident_Address": "158 EAST   23 STREET",
+        "Street_Name": "EAST   23 STREET",
+        "Cross_Street_1": "LEXINGTON AVE",
+        "Cross_Street_2": "3 AVE",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/5/20 16:49",
+        "Community_Board": "06 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.739223364057125, -73.98408979233952)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98408979,
+          40.73922336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45539082,
+        "Created_Date": "2/3/20 20:22",
+        "Closed_Date": "",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Water Quality",
+        "Descriptor": "Taste/Odor, Chlorine (QA1)",
+        "Location_Type": "",
+        "Incident_Zip": 10024,
+        "Incident_Address": "22 WEST   83 STREET",
+        "Street_Name": "WEST   83 STREET",
+        "Cross_Street_1": "CENTRAL PARK W",
+        "Cross_Street_2": "COLUMBUS AVE",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Started",
+        "Resolution_Action_Updated_Date": "2/4/20 8:00",
+        "Community_Board": "07 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.783672069219776, -73.97156711114246)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97156711,
+          40.78367207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45538879,
+        "Created_Date": "2/3/20 20:28",
+        "Closed_Date": "2/4/20 21:45",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Air Quality",
+        "Descriptor": "Air: Odor/Fumes, Restaurant (AD2)",
+        "Location_Type": "",
+        "Incident_Zip": 11375,
+        "Incident_Address": "101-15 QUEENS BOULEVARD",
+        "Street_Name": "QUEENS BOULEVARD",
+        "Cross_Street_1": "67 RD",
+        "Cross_Street_2": "QUEENS BLVD",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "Forest Hills",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/4/20 21:45",
+        "Community_Board": "06 QUEENS",
+        "Borough": "QUEENS",
+        "Location": "(40.726560937201256, -73.851859989591)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.85185999,
+          40.72656094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45534019,
+        "Created_Date": "2/3/20 20:31",
+        "Closed_Date": "2/6/20 14:00",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Water Quality",
+        "Descriptor": "Taste/Odor, Chemical (QA2)",
+        "Location_Type": "",
+        "Incident_Zip": 10312,
+        "Incident_Address": "31 TULIP CIRCLE",
+        "Street_Name": "TULIP CIRCLE",
+        "Cross_Street_1": "ROLLING HILL GRN",
+        "Cross_Street_2": "DEAD END",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "STATEN ISLAND",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/6/20 14:00",
+        "Community_Board": "03 STATEN ISLAND",
+        "Borough": "STATEN ISLAND",
+        "Location": "(40.55093637718361, -74.19208668245939)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.19208668,
+          40.55093638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45534199,
+        "Created_Date": "2/3/20 20:39",
+        "Closed_Date": "",
+        "Agency": "DOHMH",
+        "Agency_Name": "Department of Health and Mental Hygiene",
+        "Complaint_Type": "Food Establishment",
+        "Descriptor": "Odor",
+        "Location_Type": "Restaurant/Bar/Deli/Bakery",
+        "Incident_Zip": "NA",
+        "Incident_Address": "",
+        "Street_Name": "",
+        "Cross_Street_1": "",
+        "Cross_Street_2": "",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "",
+        "City": "",
+        "Landmark": "",
+        "Facility_Type": "",
+        "Status": "In Progress",
+        "Resolution_Action_Updated_Date": "2/4/20 20:48",
+        "Community_Board": "0 Unspecified",
+        "Borough": "Unspecified",
+        "Location": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9389137,
+          40.7493673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45534395,
+        "Created_Date": "2/3/20 21:45",
+        "Closed_Date": "2/4/20 11:28",
+        "Agency": "DOHMH",
+        "Agency_Name": "Department of Health and Mental Hygiene",
+        "Complaint_Type": "Indoor Air Quality",
+        "Descriptor": "Chemical Vapors/Gases/Odors",
+        "Location_Type": "Other (Explain Below)",
+        "Incident_Zip": 10002,
+        "Incident_Address": "131 BROOME STREET",
+        "Street_Name": "BROOME STREET",
+        "Cross_Street_1": "PITT STREET",
+        "Cross_Street_2": "RIDGE STREET",
+        "Intersection_Street_1": "PITT STREET",
+        "Intersection_Street_2": "RIDGE STREET",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "BROOME STREET",
+        "Facility_Type": "",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/4/20 11:28",
+        "Community_Board": "03 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.71621954798798, -73.98399067098026)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98399067,
+          40.71621955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45538835,
+        "Created_Date": "2/3/20 21:51",
+        "Closed_Date": "2/3/20 23:05",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Hazardous Materials",
+        "Descriptor": "Chemical Odor (HD1)",
+        "Location_Type": "",
+        "Incident_Zip": 11232,
+        "Incident_Address": "770 5 AVENUE",
+        "Street_Name": "5 AVENUE",
+        "Cross_Street_1": "27 ST",
+        "Cross_Street_2": "28 ST",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "BROOKLYN",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/3/20 23:05",
+        "Community_Board": "07 BROOKLYN",
+        "Borough": "BROOKLYN",
+        "Location": "(40.65771309461927, -73.99721758391071)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99721758,
+          40.65771309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45537794,
+        "Created_Date": "2/3/20 21:51",
+        "Closed_Date": "",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Hazardous Materials",
+        "Descriptor": "Chemical Odor (HD1)",
+        "Location_Type": "",
+        "Incident_Zip": 10002,
+        "Incident_Address": "131 BROOME STREET",
+        "Street_Name": "BROOME STREET",
+        "Cross_Street_1": "PITT ST",
+        "Cross_Street_2": "RIDGE ST",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "NEW YORK",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Started",
+        "Resolution_Action_Updated_Date": "2/3/20 22:05",
+        "Community_Board": "03 MANHATTAN",
+        "Borough": "MANHATTAN",
+        "Location": "(40.71621954798798, -73.98399067098026)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98399067,
+          40.71621955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45534393,
+        "Created_Date": "2/3/20 22:00",
+        "Closed_Date": "",
+        "Agency": "DOHMH",
+        "Agency_Name": "Department of Health and Mental Hygiene",
+        "Complaint_Type": "Indoor Sewage",
+        "Descriptor": "Sewage Odor",
+        "Location_Type": "1-2 Family Dwelling",
+        "Incident_Zip": 11435,
+        "Incident_Address": "89-33 146 STREET",
+        "Street_Name": "146 STREET",
+        "Cross_Street_1": "89 AVENUE",
+        "Cross_Street_2": "JAMAICA AVENUE",
+        "Intersection_Street_1": "89 AVENUE",
+        "Intersection_Street_2": "JAMAICA AVENUE",
+        "Address_Type": "",
+        "City": "JAMAICA",
+        "Landmark": "146 STREET",
+        "Facility_Type": "",
+        "Status": "In Progress",
+        "Resolution_Action_Updated_Date": "",
+        "Community_Board": "12 QUEENS",
+        "Borough": "QUEENS",
+        "Location": "(40.70291265371348, -73.80937610674991)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.80937611,
+          40.70291265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45532755,
+        "Created_Date": "2/3/20 22:01",
+        "Closed_Date": "2/3/20 23:15",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Hazardous Materials",
+        "Descriptor": "Chemical Odor (HD1)",
+        "Location_Type": "",
+        "Incident_Zip": 11415,
+        "Incident_Address": "80-04 AUSTIN STREET",
+        "Street_Name": "AUSTIN STREET",
+        "Cross_Street_1": "UNION TPKE",
+        "Cross_Street_2": "80 RD",
+        "Intersection_Street_1": "",
+        "Intersection_Street_2": "",
+        "Address_Type": "ADDRESS",
+        "City": "Kew Gardens",
+        "Landmark": "",
+        "Facility_Type": "N/A",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/3/20 23:15",
+        "Community_Board": "09 QUEENS",
+        "Borough": "QUEENS",
+        "Location": "(40.712776288483404, -73.83345809398463)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.83345809,
+          40.71277629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unique_Key": 45534007,
+        "Created_Date": "2/3/20 23:04",
+        "Closed_Date": "2/4/20 1:40",
+        "Agency": "DEP",
+        "Agency_Name": "Department of Environmental Protection",
+        "Complaint_Type": "Sewer",
+        "Descriptor": "Sewer Odor (SA2)",
+        "Location_Type": "",
+        "Incident_Zip": 11220,
+        "Incident_Address": "",
+        "Street_Name": "",
+        "Cross_Street_1": "",
+        "Cross_Street_2": "",
+        "Intersection_Street_1": "64 STREET",
+        "Intersection_Street_2": "2 AVENUE",
+        "Address_Type": "INTERSECTION",
+        "City": "BROOKLYN",
+        "Landmark": "",
+        "Facility_Type": "",
+        "Status": "Closed",
+        "Resolution_Action_Updated_Date": "2/4/20 1:40",
+        "Community_Board": "07 BROOKLYN",
+        "Borough": "BROOKLYN",
+        "Location": "(40.64120874925707, -74.02511842658978)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02511843,
+          40.64120875
+        ]
+      }
+    }
+  ]
+}
