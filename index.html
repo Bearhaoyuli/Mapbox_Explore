@@ -21,7 +21,7 @@
     <div id='map'></div>
         <div id='console'>
             <h1>311 Complaims</h1>
-            <p>Data: <a href='https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95'>2/3/2020 complaims</a> in NYC</p>
+            <p>Data: <a href='https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9'>2/3/2020 311 Complaims</a> in NYC</p>
 
             <div class='session'>
 
@@ -35,14 +35,14 @@
                   <label for='weekday'>Weekday</label>
                   <input id='weekend' type='radio' name='toggle' value='weekend'>
                   <label for='weekend'>Weekend</label> -->
-                  <p><button type="button" onclick="remove()">remove layer</button> </p>
-                  <p><button type = "button" onclick="animate_p() ;animate_p()"> Animate the points</button></p>
+                  <p><button class="button button2" type="button" onclick="remove()">Remove layers</button>
+                  <button class="button button2" type = "button" onclick="animate_p() ;animate_p()"> Animate the points</button></p>
                   <p><div class="overlay">
                     <button id="replay" >Animate with Route</button>
                     </div></p>
                 </div>
 
-                <button type="button" class="collapsible">Filter by HR</button>
+                <button type="button" class="collapsible" >Filter by HR</button>
                 <div class="content">
                 <p>
                     <h2>Severity</h2>
@@ -57,14 +57,24 @@
                   <div class='label'>5</div>
                   <div class='label'>6</div>
                 </div>
-                    <h2>Day of the week</h2>
+                    <h2>See all or by hour</h2>
                     <div class='row' id='filters'>
-                      <input id='all' type='checkbox' name='toggle' value='all' onclick="addlayertime()">
+                      <!-- <input id='all' type='checkbox' name='toggle' value='all' onclick="addlayertime()">
+                      <label for='all'>By hr</label> -->
+                      <input id='all' type='radio' name='toggle' value='all' onclick="addlayertime()">
                       <label for='all'>By hr</label>
+                      <input id='hr' type='radio' name='toggle' value='all' onclick="addlayertime()">
+                      <label for='hr'>All</label>
                         <div class='session' id='sliderbar'>
                             <h2>Hour: <label id='active-hour'>12PM</label></h2>
                             <input id='slider' class='row' type='range' min='0' max='23' step='1' value='12' />
-                            </div></p>
+                            </div>
+                            <p>
+                              <h5>*1:Air quality 2:Food 3:Sewer 4:Indoor waters; Indoor Air; Water quality 5:Indoor Sewer 6:Hazardous Materials</h5>
+                            </p>
+
+
+                          </p>
                 </div>
 
 
