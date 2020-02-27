@@ -314,7 +314,7 @@
         "Unique_Key": 45539835,
         "Created_Time": "2/3/20 16:30",
         "Status": "Closed",
-        "harz_l": 5,
+        "harz_l": 6,
         "Created_hr": 16
       },
       "geometry": {
@@ -332,7 +332,7 @@
         "Unique_Key": 45538874,
         "Created_Time": "2/3/20 16:00",
         "Status": "Closed",
-        "harz_l": 5,
+        "harz_l": 6,
         "Created_hr": 16
       },
       "geometry": {
@@ -350,7 +350,7 @@
         "Unique_Key": 45536025,
         "Created_Time": "2/3/20 10:11",
         "Status": "Closed",
-        "harz_l": 5,
+        "harz_l": 6,
         "Created_hr": 10
       },
       "geometry": {
@@ -368,7 +368,7 @@
         "Unique_Key": 45537150,
         "Created_Time": "2/3/20 18:48",
         "Status": "Closed",
-        "harz_l": 5,
+        "harz_l": 6,
         "Created_hr": 18
       },
       "geometry": {
@@ -386,7 +386,7 @@
         "Unique_Key": 45537901,
         "Created_Time": "2/3/20 8:36",
         "Status": "Closed",
-        "harz_l": 5,
+        "harz_l": 6,
         "Created_hr": 8
       },
       "geometry": {
@@ -404,7 +404,7 @@
         "Unique_Key": 45538835,
         "Created_Time": "2/3/20 21:51",
         "Status": "Closed",
-        "harz_l": 5,
+        "harz_l": 6,
         "Created_hr": 21
       },
       "geometry": {
@@ -422,7 +422,7 @@
         "Unique_Key": 45540077,
         "Created_Time": "2/3/20 14:05",
         "Status": "Closed",
-        "harz_l": 5,
+        "harz_l": 6,
         "Created_hr": 14
       },
       "geometry": {
@@ -440,7 +440,7 @@
         "Unique_Key": 45535990,
         "Created_Time": "2/3/20 9:47",
         "Status": "Closed",
-        "harz_l": 5,
+        "harz_l": 6,
         "Created_hr": 9
       },
       "geometry": {
@@ -458,7 +458,7 @@
         "Unique_Key": 45537790,
         "Created_Time": "2/3/20 15:45",
         "Status": "Not_Closed",
-        "harz_l": 5,
+        "harz_l": 6,
         "Created_hr": 15
       },
       "geometry": {
@@ -476,7 +476,7 @@
         "Unique_Key": 45537794,
         "Created_Time": "2/3/20 21:51",
         "Status": "Not_Closed",
-        "harz_l": 5,
+        "harz_l": 6,
         "Created_hr": 21
       },
       "geometry": {
@@ -494,7 +494,7 @@
         "Unique_Key": 45537151,
         "Created_Time": "2/3/20 20:22",
         "Status": "Closed",
-        "harz_l": 5,
+        "harz_l": 6,
         "Created_hr": 20
       },
       "geometry": {
@@ -512,7 +512,7 @@
         "Unique_Key": 45532755,
         "Created_Time": "2/3/20 22:01",
         "Status": "Closed",
-        "harz_l": 5,
+        "harz_l": 6,
         "Created_hr": 22
       },
       "geometry": {
@@ -530,7 +530,7 @@
         "Unique_Key": 45534395,
         "Created_Time": "2/3/20 21:45",
         "Status": "Closed",
-        "harz_l": 3,
+        "harz_l": 4,
         "Created_hr": 21
       },
       "geometry": {
@@ -548,7 +548,7 @@
         "Unique_Key": 45539357,
         "Created_Time": "2/3/20 3:09",
         "Status": "Closed",
-        "harz_l": 3,
+        "harz_l": 4,
         "Created_hr": 3
       },
       "geometry": {
@@ -566,7 +566,7 @@
         "Unique_Key": 45539901,
         "Created_Time": "2/3/20 3:02",
         "Status": "Closed",
-        "harz_l": 3,
+        "harz_l": 4,
         "Created_hr": 3
       },
       "geometry": {
@@ -584,7 +584,7 @@
         "Unique_Key": 45537546,
         "Created_Time": "2/3/20 15:39",
         "Status": "Closed",
-        "harz_l": 3,
+        "harz_l": 4,
         "Created_hr": 15
       },
       "geometry": {
@@ -602,7 +602,7 @@
         "Unique_Key": 45539352,
         "Created_Time": "2/3/20 12:05",
         "Status": "Closed",
-        "harz_l": 3,
+        "harz_l": 4,
         "Created_hr": 12
       },
       "geometry": {
@@ -620,7 +620,7 @@
         "Unique_Key": 45534393,
         "Created_Time": "2/3/20 22:00",
         "Status": "Not_Closed",
-        "harz_l": 4,
+        "harz_l": 5,
         "Created_hr": 22
       },
       "geometry": {
@@ -638,7 +638,7 @@
         "Unique_Key": 45532166,
         "Created_Time": "2/3/20 6:17",
         "Status": "Closed",
-        "harz_l": 4,
+        "harz_l": 5,
         "Created_hr": 6
       },
       "geometry": {
@@ -656,7 +656,7 @@
         "Unique_Key": 45535372,
         "Created_Time": "2/3/20 14:22",
         "Status": "Closed",
-        "harz_l": 4,
+        "harz_l": 5,
         "Created_hr": 14
       },
       "geometry": {
@@ -674,7 +674,7 @@
         "Unique_Key": 45536576,
         "Created_Time": "2/3/20 9:59",
         "Status": "Not_Closed",
-        "harz_l": 3,
+        "harz_l": 4,
         "Created_hr": 9
       },
       "geometry": {
@@ -692,7 +692,7 @@
         "Unique_Key": 45533953,
         "Created_Time": "2/3/20 15:36",
         "Status": "Closed",
-        "harz_l": 2,
+        "harz_l": 3,
         "Created_hr": 15
       },
       "geometry": {
@@ -710,7 +710,7 @@
         "Unique_Key": 45534004,
         "Created_Time": "2/3/20 14:35",
         "Status": "Closed",
-        "harz_l": 2,
+        "harz_l": 3,
         "Created_hr": 14
       },
       "geometry": {
@@ -728,7 +728,7 @@
         "Unique_Key": 45534007,
         "Created_Time": "2/3/20 23:04",
         "Status": "Closed",
-        "harz_l": 2,
+        "harz_l": 3,
         "Created_hr": 23
       },
       "geometry": {
@@ -746,7 +746,7 @@
         "Unique_Key": 45534019,
         "Created_Time": "2/3/20 20:31",
         "Status": "Closed",
-        "harz_l": 3,
+        "harz_l": 4,
         "Created_hr": 20
       },
       "geometry": {
@@ -764,7 +764,7 @@
         "Unique_Key": 45539082,
         "Created_Time": "2/3/20 20:22",
         "Status": "Not_Closed",
-        "harz_l": 3,
+        "harz_l": 4,
         "Created_hr": 20
       },
       "geometry": {
