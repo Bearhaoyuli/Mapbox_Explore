@@ -331,6 +331,9 @@ function remove(){
     }
     catch(e){};
     $('.marker').remove();
+    var ele = document.getElementsByName("toggle");
+    for(var i=0;i<ele.length;i++)
+       ele[i].checked = false;
     // var time_ani_incide={};
     // if (markerss!==null) {
     //     for (var i = markerss.length - 1; i >= 0; i--) {
@@ -563,7 +566,25 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
     layers.appendChild(link);
 };
 
+$(document).ready(function(){
+    $('input[type="radio"]').click(function(){
+        var inputValue = $(this).attr("class");
+        console.log(inputValue);
+        if(inputValue == 'show'){
+          console.log("haha");
+          var targetBox = $("." + inputValue);
+          $(".session2").not(targetBox).show();
+          $(targetBox).show();
 
+        }else{
+          var targetBox = $("." + inputValue);
+          $(".session2").not(targetBox).hide();
+          $(targetBox).show();
+
+        }
+
+    });
+});
 
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -579,3 +600,4 @@ coll[i].addEventListener("click", function() {
     }
 });
 }
+
