@@ -52,10 +52,9 @@ $.getJSON('./route.geojson', function(results){
 
                 var arc = [];
 
-                // Number of steps to use in the arc and animation, more steps means
-                // a smoother arc and animation, but too many steps will result in a
+                // too many steps will result in a
                 // low frame rate
-                var steps = 800;
+                var steps = 1500;
 
                 // Draw an arc between the `origin` & `destination`
                 for (var i = 0; i < lineDistance; i += lineDistance / steps) {
@@ -449,7 +448,7 @@ function animate_p(){
             .setLngLat(marker.geometry.coordinates)
             .addTo(map)
         // markerss.remove()
-      }, (index+1) * 100)
+      }, (index+1) * 250)
     // $( ".marker" ).remove();
 // create a HTML element for each feature
 // markerss.remove()
