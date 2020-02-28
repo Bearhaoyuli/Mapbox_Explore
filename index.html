@@ -61,14 +61,26 @@
                     <div class='row' id='filters'>
                       <!-- <input id='all' type='checkbox' name='toggle' value='all' onclick="addlayertime()">
                       <label for='all'>By hr</label> -->
-                      <input id='all' type='radio' name='toggle' value='all' onclick="addlayertime()">
+                      <input id='all' type='radio' name='toggle' value='all'  class= 'show' onclick="addlayertime()" >
                       <label for='all'>By hr</label>
                       <input id='hr' type='radio' name='toggle' value='all' onclick="addlayertime()">
                       <label for='hr'>All</label>
-                        <div class='session' id='sliderbar'>
+                      <div id="collapseOne" class="panel-collapse collapse">
+
+
+                        <div class='session2'>
+
+
+                        <div class='session' id='sliderbar' >
                             <h2>Hour: <label id='active-hour'>12PM</label></h2>
                             <input id='slider' class='row' type='range' min='0' max='23' step='1' value='12' />
                             </div>
+
+                        </div>
+
+
+
+
                             <p>
                               <h5>*1:Air quality 2:Food 3:Sewer 4:Indoor waters; Indoor Air; Water quality 5:Indoor Sewer 6:Hazardous Materials</h5>
                             </p>
@@ -89,3 +101,4 @@
 
   </body>
 </html>
+
