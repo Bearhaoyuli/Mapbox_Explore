@@ -3,7 +3,7 @@ var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/haoyu-fsf/ck6sr15xd0gdj1jpcwgrl2w34', // style URL
   center: [-74.0060, 40.7128],
-  zoom: 11.5
+  zoom: 11
 });
 
 // First Incident
