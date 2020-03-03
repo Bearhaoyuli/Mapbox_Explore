@@ -1,19 +1,35 @@
 body {
   margin: 0;
   padding: 0;
+  height: 900px;
 }
+
+/* header {
+	height: 80px;
+} */
+header {
+  display: flex;
+  height: 80px;
+  min-width: 120px;
+  align-items: center;
+  /* text-shadow: rgb(151, 136, 52) 0 0 .2em; */
+}
+
+
+
 
 #map {
   position: absolute;
-  top: 0;
+  top: 80px;
   bottom: 0;
   width: 100%;
+  
 }
 #menu {
   background: #fff;
   position: absolute;
   z-index: 1;
-  top: 10px;
+  top: 95px;
   right: 10px;
   border-radius: 3px;
   width: 120px;
@@ -200,4 +216,5 @@ cursor: pointer;
   overflow: auto;
   border-radius: 3px;
 }
+
 
