@@ -3,7 +3,7 @@ var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/haoyu-fsf/ck6sr15xd0gdj1jpcwgrl2w34', // style URL
   center: [-74.0060, 40.7128],
-  zoom: 11
+  zoom: 11.5
 });
 
 // First Incident
@@ -52,7 +52,8 @@ $.getJSON('./route.geojson', function(results){
 
                 var arc = [];
 
-                // too many steps will result in a
+                // Number of steps to use in the arc and animation, more steps means
+                // a smoother arc and animation, but too many steps will result in a
                 // low frame rate
                 var steps = 1500;
 
@@ -273,6 +274,66 @@ $.getJSON('./route.geojson', function(results){
                     // Start the animation.
                     // animate(counter);
 
+                    //add code here. 
+                    var lables_to_show = ['0', '1', '2', '3', '4&+'];
+                    var colors = ['#1a9641', '#a6d96a', '#ffffbf', '#fdae61', '#d7191c'];
+                    for (i = 0; i < lables_to_show.length; i++) {
+                        var layer = lables_to_show[i];
+                        var color = colors[i];
+                        var item = document.createElement('div');
+                        var key = document.createElement('span');
+                        key.className = 'legend-key';
+                        console.log(key);
+
+                        key.style.backgroundColor = color;
+                        var value = document.createElement('span');
+                        value.innerHTML = layer;
+                        console.log(value);
+                        item.appendChild(key);
+                        item.appendChild(value);
+                        legend.appendChild(item);
+
+                       
+                        // if (color.startsWith("#")){
+                        //     // key.style.backgroundColor = color;
+                        //     key.style.backgroundColor = color;
+                      
+                        //     var value = document.createElement('span');
+                        //     value.innerHTML = layer;
+                        //     item.appendChild(key);
+                        //     item.appendChild(value);
+                        //     legend.appendChild(item);
+
+                        // }else{
+                        //     key.style.display="inline"
+                        //     // key = key + '<image src='+ color + '>';
+                        //     console.log(key);
+                            
+                        //     // key.style.backgroundColor = color;
+                        //     var value = document.createElement('span');
+                        //     var down = document.getElementsByClassName('legend-key'); 
+                        //     var img = document.createElement('img'); 
+
+                        //     img.src = '../icon/incident.png'; 
+                        //     document.getElementsByClassName('legend-key').appendChild(img); 
+                        //     down.innerHTML = "Image Element Added.";  
+
+
+
+                        //     value.innerHTML = layer;
+                        //     item.appendChild(img);
+                        //     item.appendChild(value);
+                        //     legend.appendChild(item);
+
+                        // }
+                        
+                      }
+                      
+
+
+
+
+                    //end of map.onload function
 
                 });
 
@@ -502,6 +563,13 @@ map.getCanvas().style.cursor = features2.length ? 'pointer' : '';
 });
 
 map.on('click', function(e) {
+// try{
+//     popup3.remove()
+// }catch(e){}
+// popup3.remove();
+
+
+// console.log(popup3);
 var Inci_Features = map.queryRenderedFeatures(e.point, { layers: ['Complains'] });
 if (!Inci_Features.length) {
     map.removeLayer('nearest-pdstation');
@@ -530,7 +598,21 @@ if (nearestPD !== null) {
     }
     }, 'Police_station');
 }
+
+
+
 });
+
+var popup3 = new mapboxgl.Popup({ offset: [0, -15] });
+map.on('click', 'PP_Area', function(e) {
+
+    var checkit = map.getLayer('nearest-pdstation');
+    if(typeof checkit == 'undefined'){
+        popup3.setLngLat(e.lngLat)
+        .setHTML('<h5>'+ 'Incident in this Police Precinct is:'+'</h5><p>'+e.features[0].properties.Join_Count+ '</p>' )
+        .addTo(map);
+    }
+    });
 
 
 
@@ -599,4 +681,4 @@ coll[i].addEventListener("click", function() {
     }
 });
 }
-
+// $("div.toshow").show();
